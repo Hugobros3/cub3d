@@ -1,0 +1,5 @@
+target_sources(cub3d PUBLIC main_menu.c menu_background.c)
+target_sources(cub3d PUBLIC find_background_view/bg_view.c)
+target_sources(cub3d PUBLIC main_menu_uis/mult_menu/mult_host_button.c main_menu_uis/mult_menu/mult_list_servs.c main_menu_uis/mult_menu/mult_menu_init.c main_menu_uis/mult_menu/mult_menu_return.c main_menu_uis/mult_menu/mult_menu_switch.c)
+target_sources(cub3d PUBLIC main_menu_uis/option_menu/option_fov_slider.c main_menu_uis/option_menu/option_menu_init.c main_menu_uis/option_menu/option_menu_return.c main_menu_uis/option_menu/option_menu_switch.c main_menu_uis/option_menu/option_mouse_button.c main_menu_uis/option_menu/option_sensi_slider.c)
+target_sources(cub3d PUBLIC main_menu_uis/mult_button.c main_menu_uis/options_button.c main_menu_uis/quit_button.c main_menu_uis/start_button.c)

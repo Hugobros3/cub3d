@@ -1,0 +1,12 @@
+target_sources(emlx PRIVATE engine.c)
+
+add_subdirectory(coroutines)
+add_subdirectory(debug)
+add_subdirectory(images)
+add_subdirectory(inputs)
+add_subdirectory(mainloop)
+add_subdirectory(opencl)
+add_subdirectory(t_game)
+add_subdirectory(t_ui)
+add_subdirectory(text)
+add_subdirectory(utils)
